@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $(".b1").click(function(){
+    $("p").hide(1000);
+  });
+  $(".b2").click(function(){
+    $("p").show(1000);
+  });
+});
+</script>
+</head>
+<body>
+
+<button class ="b1">Hide</button>
+<button class ="b2">Show</button>
+
+<p>Click hide to hide all the paragraph</p>
+<p>Click show to show all the paragraph</p>
+
+</body>
+</html>
